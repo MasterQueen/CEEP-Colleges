@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">锦鲤(高校)</string>
+
+    //注册
+    <string name="title_name">欢迎加入锦鲤(高校端）</string>
+    <string name="ltitle_name">用实力·博人生</string>
+    <string name="province">选择地区</string>
+    <string name="school">选择学校</string>
+    <string name="logonbtn_name">注册</string>
+    <string name="password_name">密码</string>
+    <string name="about_name">点击以上按钮代表同意用户协议</string>
+
+    //发布通知
+    <string name="announce_title">标题:</string>
+    <string name="announce_time">活动时间:</string>
+    <string name="announce_conter">详细内容:</string>
+    <string name="announce_office">发布方:</string>
+    <string name="announce_up">发布</string>
+    <string name="announce_hint">请输入30字符内</string>
+
+    //信息推送
+    <string name="message_title">标题:</string>
+    <string name="message_time">宣讲时间:</string>
+    <string name="message_conter">详细内容:</string>
+    <string name="message_office">宣讲地:</string>
+    <string name="message_up">推送</string>
+    <string name="message_hint">请输入30字符内</string>
+
+    //推送记录
+    <string name="title">标题</string>
+    <string name="time">发布时间</string>
+    <string name="office">发布方/举办地</string>
+    <string name="conter">详细内容</string>
+
+    //登录
+    <string name="school_name">学校名称</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+</resources>

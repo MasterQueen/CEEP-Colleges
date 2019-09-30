@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/up_rocard_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/AppTheme"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        android:paddingTop="14dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textSize="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="34dp"
+                android:background="#cccc"/>
+            
+            <TextView
+                android:id="@+id/title_conter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="郑州轻工业大学"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+
+                />
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/time"
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="34dp"
+                android:background="#cccc"/>
+            <TextView
+                android:id="@+id/time_conter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="时间"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/office"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/office"
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="34dp"
+                android:background="#cccc"/>
+            <TextView
+                android:id="@+id/office_conter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="郑州轻工业大学职协"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/conter"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/conter"
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="34dp"
+                android:background="#cccc"/>
+            <TextView
+                android:id="@+id/conter_conter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="郑州轻工业大学职协"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/delect"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/bg_btn"
+                android:text="删除"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+
+                android:layout_marginTop="50dp"/>
+       </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>
